@@ -97,5 +97,6 @@ if st.session_state.message:
 # Show guessed letters
 st.write(f"Guessed Letters: {', '.join(sorted(st.session_state.guessed_letters))}")
 
-st.title("[~]")
-st.title("// 🎭 Game's For Desktop Computers Only // 🎭")
+st.warning("⚠️ This game is optimized for desktop computers. Mobile users may experience issues.")
+## st.title("[~]")
+## st.title("// 🎭 Game's For Desktop Computers Only // 🎭")
