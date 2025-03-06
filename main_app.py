@@ -41,7 +41,7 @@ if "word" not in st.session_state:
     st.session_state.message = ""
 
 #st.title("🎭 The LGP Hangman Game -- for Desktop Computers")
-st.title("// 🎭 The LGP Hangman Game //")
+st.title("// 🎭 The LGP Hangman Game // 🎭")
 st.title("// 🎭 for Desktop Computers // 🎭")
 
 # Display word with blanks
