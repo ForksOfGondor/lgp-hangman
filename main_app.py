@@ -43,7 +43,7 @@ if "word" not in st.session_state:
 #st.title("🎭 The LGP Hangman Game -- for Desktop Computers")
 st.title("// 🎭 The LGP Hangman Game // 🎭")
 
-st.title("[~]")
+
 
 # Display word with blanks
 display_word = get_display_word(st.session_state.word, st.session_state.guessed_letters)
@@ -97,4 +97,5 @@ if st.session_state.message:
 # Show guessed letters
 st.write(f"Guessed Letters: {', '.join(sorted(st.session_state.guessed_letters))}")
 
+st.title("[~]")
 st.title("// 🎭 Game's For Desktop Computers Only // 🎭")
