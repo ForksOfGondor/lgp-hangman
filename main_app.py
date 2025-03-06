@@ -40,7 +40,9 @@ if "word" not in st.session_state:
     st.session_state.attempts = 12
     st.session_state.message = ""
 
-st.title("🎭 The LGP Hangman Game -- for Desktop Computers")
+#st.title("🎭 The LGP Hangman Game -- for Desktop Computers")
+st.title("// 🎭 The LGP Hangman Game //")
+st.title("// 🎭 for Desktop Computers // 🎭")
 
 # Display word with blanks
 display_word = get_display_word(st.session_state.word, st.session_state.guessed_letters)
