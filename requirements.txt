@@ -1,0 +1,4 @@
+# requirements.txt file with the requirements
+
+streamlit
+random
