@@ -1,4 +1,4 @@
 # requirements.txt file with the requirements
 
-streamlit
+## streamlit
 ## random
